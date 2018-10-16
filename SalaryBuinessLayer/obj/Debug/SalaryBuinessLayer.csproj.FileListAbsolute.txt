@@ -1,0 +1,8 @@
+C:\Users\rahul.sharma\Downloads\sampleApp2-master\SalaryBuinessLayer\obj\Debug\SalaryBuinessLayer.csprojResolveAssemblyReference.cache
+E:\RahulSharma\RnD\EmployeePayslips\SalaryBuinessLayer\obj\Debug\SalaryBuinessLayer.csprojResolveAssemblyReference.cache
+E:\RahulSharma\RnD\EmployeePayslips\SalaryBuinessLayer\bin\Debug\SalaryBuinessLayer.dll
+E:\RahulSharma\RnD\EmployeePayslips\SalaryBuinessLayer\bin\Debug\SalaryBuinessLayer.pdb
+E:\RahulSharma\RnD\EmployeePayslips\SalaryBuinessLayer\bin\Debug\Newtonsoft.Json.dll
+E:\RahulSharma\RnD\EmployeePayslips\SalaryBuinessLayer\bin\Debug\Newtonsoft.Json.xml
+E:\RahulSharma\RnD\EmployeePayslips\SalaryBuinessLayer\obj\Debug\SalaryBuinessLayer.dll
+E:\RahulSharma\RnD\EmployeePayslips\SalaryBuinessLayer\obj\Debug\SalaryBuinessLayer.pdb

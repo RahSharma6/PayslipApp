@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Tbl_EmployeeDetails">
+    <Key>
+      <PropertyRef Name="EmpId" />
+    </Key>
+    <Property Name="EmpId" Type="Int32" Nullable="false" />
+    <Property Name="FName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PSD" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_PayDetails">
+    <Key>
+      <PropertyRef Name="PayID" />
+    </Key>
+    <Property Name="PayID" Type="Int32" Nullable="false" />
+    <Property Name="AnnualSalary" Type="Int32" />
+    <Property Name="SuperRate" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="TestEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Tbl_EmployeeDetails" EntityType="Self.Tbl_EmployeeDetails" />
+    <EntitySet Name="tbl_PayDetails" EntityType="Self.tbl_PayDetails" />
+    <FunctionImport Name="CreatePayslip" ReturnType="Collection(TestModel.CreatePayslip_Result)">
+      <Parameter Name="Fname" Mode="In" Type="String" />
+      <Parameter Name="Lname" Mode="In" Type="String" />
+      <Parameter Name="AnnualSalary" Mode="In" Type="Int32" />
+      <Parameter Name="SuperRate" Mode="In" Type="Double" />
+      <Parameter Name="PayStartDate" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="CreatePayslip_Result">
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PayPeriod" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="GrossIncome" Nullable="true" />
+    <Property Type="Int32" Name="IncomeTax" Nullable="true" />
+    <Property Type="Int32" Name="NetIncome" Nullable="true" />
+    <Property Type="Int32" Name="SuperAmount" Nullable="true" />
+  </ComplexType>
+</Schema>
