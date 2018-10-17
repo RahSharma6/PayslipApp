@@ -170,15 +170,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="BAL\EmployeeBAL.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="CreatePayslip_Result.cs">
       <DependentUpon>Employee.tt</DependentUpon>
     </Compile>
-    <Compile Include="DI_DBContext\IMyDataContextFactory .cs" />
-    <Compile Include="DI_DBContext\IDbContextForDI.cs" />
-    <Compile Include="DI_DBContext\MyDataContext.cs" />
-    <Compile Include="DI_DBContext\MyDataContextFactory.cs" />
     <Compile Include="Employee.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

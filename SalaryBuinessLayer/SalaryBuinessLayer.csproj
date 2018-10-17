@@ -44,12 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory\IEmployee.cs" />
-    <Compile Include="AbstractProduct\PermanentEmployee.cs" />
-    <Compile Include="AbstractProduct\TemporaryEmployee.cs" />
-    <Compile Include="ConcreteFactory\ConcreteEmployeeFactory.cs" />
-    <Compile Include="ConcreteFactory\EmployeeFactory.cs" />
+    <Compile Include="ConcreteEmployeeFactory.cs" />
+    <Compile Include="EmployeeFactory.cs" />
+    <Compile Include="IEmployee.cs" />
+    <Compile Include="PermanentEmployee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TemporaryEmployee.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -22,13 +22,7 @@ namespace BusinessLayer.AbstractProduct
 
         public dynamic PayslipDetails(string Fname, string Lname, Nullable<int> AnnualSalary, Nullable<double> SuperRate, string PayStartDate)
         {
-            
-            // Creating Singleton object of Edmx class.
-            EmployeeDataLayer.Singleton obj;
-            
-            // Stored Procedure which will calculate all the Income tax and salary details-CreatePayslip
-
-            dynamic result = obj.CreatePayslip(Fname, Lname, AnnualSalary, SuperRate, PayStartDate);
+            dynamic result = EmployeeDataLayer.Singleton.Instance.CreatePayslip(Fname, Lname, AnnualSalary, SuperRate, PayStartDate);
 
             return result;
 

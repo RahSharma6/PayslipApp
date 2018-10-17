@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePayslips", "Employe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePayslips.Tests", "EmployeePayslips.Tests\EmployeePayslips.Tests.csproj", "{213A1D86-1F36-4BFE-B988-62347EDA4970}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{B16C64C7-67C1-42D9-BF1A-65675C524FC9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryBuinessLayer", "SalaryBuinessLayer\SalaryBuinessLayer.csproj", "{51E6EAD3-022F-4FD1-AA15-F76771A0E7CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeDataLayer", "EmployeeDataLayer\EmployeeDataLayer.csproj", "{A9DE78C9-7B82-4E08-A62A-C87E8758E4B5}"
@@ -27,10 +25,6 @@ Global
 		{213A1D86-1F36-4BFE-B988-62347EDA4970}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{213A1D86-1F36-4BFE-B988-62347EDA4970}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{213A1D86-1F36-4BFE-B988-62347EDA4970}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B16C64C7-67C1-42D9-BF1A-65675C524FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B16C64C7-67C1-42D9-BF1A-65675C524FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B16C64C7-67C1-42D9-BF1A-65675C524FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B16C64C7-67C1-42D9-BF1A-65675C524FC9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{51E6EAD3-022F-4FD1-AA15-F76771A0E7CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{51E6EAD3-022F-4FD1-AA15-F76771A0E7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51E6EAD3-022F-4FD1-AA15-F76771A0E7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU

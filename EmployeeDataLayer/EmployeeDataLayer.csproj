@@ -67,6 +67,7 @@
       <DependentUpon>EmployeeEntity.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingletonClass.cs" />
     <Compile Include="Tbl_EmployeeDetails.cs">
       <DependentUpon>EmployeeEntity.tt</DependentUpon>
     </Compile>

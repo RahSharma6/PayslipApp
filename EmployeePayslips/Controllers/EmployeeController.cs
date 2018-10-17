@@ -1,5 +1,4 @@
-﻿using EmployeePayslips.DI_DBContext;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -29,7 +28,7 @@ namespace EmployeePayslips.Controllers
             IEmployee TemporaryEmployee = EmployeeFactory.Factory("TemporaryEmployee");
             TemporaryEmployee.details();
 
-            
+            return View();
         }
    
       
