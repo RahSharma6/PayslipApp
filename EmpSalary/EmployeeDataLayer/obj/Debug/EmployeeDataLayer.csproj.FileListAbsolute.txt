@@ -1,8 +1,0 @@
-E:\RahulSharma\RnD\EmployeePayslips\EmployeeDataLayer\obj\Debug\EmployeeDataLayer.csprojResolveAssemblyReference.cache
-E:\RahulSharma\RnD\EmployeePayslips\EmployeeDataLayer\bin\Debug\EmployeeDataLayer.dll.config
-E:\RahulSharma\RnD\EmployeePayslips\EmployeeDataLayer\bin\Debug\EmployeeDataLayer.dll
-E:\RahulSharma\RnD\EmployeePayslips\EmployeeDataLayer\bin\Debug\EmployeeDataLayer.pdb
-E:\RahulSharma\RnD\EmployeePayslips\EmployeeDataLayer\bin\Debug\EntityFramework.dll
-E:\RahulSharma\RnD\EmployeePayslips\EmployeeDataLayer\bin\Debug\EntityFramework.xml
-E:\RahulSharma\RnD\EmployeePayslips\EmployeeDataLayer\obj\Debug\EmployeeDataLayer.dll
-E:\RahulSharma\RnD\EmployeePayslips\EmployeeDataLayer\obj\Debug\EmployeeDataLayer.pdb
